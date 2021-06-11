@@ -1,0 +1,82 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body
+{
+    overflow: hidden;
+}
+
+.webgl
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+    /* background: red;
+    background-image: linear-gradient(to right bottom, #dab5ff, #c899ff, #b37dff, #9b60ff, #7e43ff);
+    background-image: linear-gradient(to left top, #cdbaff, #c2bcff, #b8bdff, #adbfff, #a3c0ff);
+    background-image: linear-gradient(to left top, #a971f7, #a070f9, #966ffb, #8b6ffd, #7f6eff);
+     */
+    background-image: linear-gradient(to left top, #44e097, #3de194, #36e190, #2de28d, #23e289);
+}
+
+.hero{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.title{
+    font-family: 'Spartan', sans-serif;
+    color: white;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 1.6em;
+    letter-spacing: 2px;
+}
+.sub{
+    font-family: 'IBM Plex Mono', monospace;
+    color: white;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.5em;
+    letter-spacing: 1px;
+    animation: slidein 0.4s ease-in 1s 1 forwards;
+    opacity: 0;
+}
+
+@keyframes slidein{
+    from{
+        opacity: 0;
+        transform: translateY(10px)
+    }to{
+        opacity: 1;
+        transform: translateY(0px)
+    }
+}
+
+
+
+span{
+    opacity: 0;
+    transition: all 0.3s ease;
+    display: inline-block;
+    transform: translateY(10px)
+
+}
+
+span.fade{
+    opacity: 1;
+    display: inline-block;
+    transform: translateY(0px)
+}
+
+
+/*# sourceMappingURL=main.css.map*/
