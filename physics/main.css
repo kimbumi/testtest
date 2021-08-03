@@ -7,7 +7,7 @@
 html,
 body
 {
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 .webgl
@@ -16,12 +16,18 @@ body
     top: 0;
     left: 0;
     outline: none;
-    /* background: red;
+     /* 
+    background: red;
     background-image: linear-gradient(to right bottom, #dab5ff, #c899ff, #b37dff, #9b60ff, #7e43ff);
     background-image: linear-gradient(to left top, #cdbaff, #c2bcff, #b8bdff, #adbfff, #a3c0ff);
     background-image: linear-gradient(to left top, #a971f7, #a070f9, #966ffb, #8b6ffd, #7f6eff);
-     */
+    background-image: linear-gradient(to top, #ffc2c5, #ffb1ad, #ffa092, #ff9274, #ff8552);
+  */
+    
+   
     background-image: linear-gradient(to left top, #44e097, #3de194, #36e190, #2de28d, #23e289);
+
+  
 }
 
 .hero{
@@ -37,7 +43,7 @@ body
     font-family: 'Spartan', sans-serif;
     color: white;
     font-weight: 700;
-    font-size: 34px;
+    font-size: 38px;
     line-height: 1.6em;
     letter-spacing: 2px;
 }
@@ -48,7 +54,7 @@ body
     font-size: 16px;
     line-height: 1.5em;
     letter-spacing: 1px;
-    animation: slidein 0.4s ease-in 1s 1 forwards;
+    animation: slidein 0.6s ease-in 1.8s 1 forwards;
     opacity: 0;
 }
 
@@ -75,8 +81,11 @@ span{
 span.fade{
     opacity: 1;
     display: inline-block;
-    transform: translateY(0px)
+    transform: translateY(0px);
 }
 
+h1{
+    position: absolute;
+}
 
 /*# sourceMappingURL=main.css.map*/
